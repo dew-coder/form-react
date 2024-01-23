@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left:20rem;
+    margin-right: 20rem;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.main label{
+    font-size: 1.2rem;
+    font-weight: 450;
+    color: rgb(1, 16, 16);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.main input, select{
+    /* max-width: 80%; */
+    height: 2rem;
+    border: 1.3px solid rgb(39, 193, 236);
+    padding: 4px;
+    font-size: medium;
+    border-radius: 4px;
+}
+.main fieldset{
+    border: 0;
+}
+legend{
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.checkbox{
+    display: flex;
+    gap: 1rem;
+
+}
+p{
+    color: rgb(141, 135, 135);
+}
+button{
+    width: 6rem;
+    height: 2rem;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(39, 193, 236);
+    border: none;
+}
